@@ -1,0 +1,76 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: #086A87;
+}
+
+.icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.icon{
+    width: 300px;
+    height: 128px;
+}
+
+.container{
+    width: 300px;
+    background-color: #FFF;
+
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 10px;
+    padding-bottom : 20px;
+
+    height: 600px;
+}
+
+.location-timezone{
+  text-align: center;
+}
+
+.temperature {
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+
+}
+
+.temperature-degree {
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.temperatureDescription{
+  font-size: 2em;
+}
+
+.degree-section{
+  font-size: 2em;
+}
+
+.degree-section span{
+  font-size: 1sem;
+  margin-bottom: 30px;
+}
+
+.speed{
+  position: relative;
+  top: 30px;
+}
+
+.feels{
+  position: relative;
+  top: 50px;
+}
+
+.warning{
+  font-size: 2esm;
+  color: #FF0000;
+  text-align: center;
+}
